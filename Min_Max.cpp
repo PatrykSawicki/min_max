@@ -46,10 +46,10 @@ void process_data()
 
 void show_results()
 {
-    cout<<"\n ";
+    cout << "\n ";
     for(int i = 0; i < n; i++)
     {
-       cout<<tab[i];
+       cout << tab[i];
        if (i < n-1) cout <<",";
     }
     cout << "."<<endl;
