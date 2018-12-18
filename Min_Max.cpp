@@ -23,7 +23,7 @@ void random_generator()
 
    for(int i = 0; i < n; i++)
    {
-      tab[i]=distance(gen);
+      tab[i] = distance(gen);
    }
 }
 
